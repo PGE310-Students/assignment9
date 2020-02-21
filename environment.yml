@@ -11,3 +11,4 @@ dependencies:
   - seaborn=0.10.0
   - opencv=4.2.0
   - pandas=1.0.1
+  - scikit-image=0.16.2
