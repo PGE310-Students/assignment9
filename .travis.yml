@@ -1,5 +1,7 @@
-sudo: false
+os: linux
 language: python
+notifications: 
+  email: false
 env:
   - ASSIGNMENT=assignment9
 install:
