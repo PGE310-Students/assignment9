@@ -1,6 +1,6 @@
 # Homework Assignment 9
 
-[![Build Status](https://travis-ci.com/PGE310/assignment9.svg?token=SnMGq692xXXqxzyE6QSj&branch=master)](https://travis-ci.com/PGE310/assignment9)
+![Assignment 9](https://github.com/PGE310/assignment9/workflows/.github/workflows/main.yml/badge.svg)
 
 Open the [Assignment 9 Jupyter Notebook](assignment9.ipynb) and follow the instructions.
 
