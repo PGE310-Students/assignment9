@@ -55,15 +55,6 @@ class TestSolution(unittest.TestCase):
                                              0.00194181, 0.00199742, 0.0022314, 
                                              0.00205417]), atol=0.0001)
         
-    def test_transform_private(self):
-
-        kc = KozenyCarmen('poro_perm.csv')
-        kc.add_kc_model_to_df()
-
-        np.testing.assert_allclose(kc.df['kc model'].values[22:31], 
-                                   np.array([0.00328828, 0.00183395, 0.00290263, 0.00241945,
-                                             0.00211207, 0.00229286, 0.00144518, 0.00173048, 
-                                             0.00217115]), atol=0.0001)
         
         
     def test_plot(self):
